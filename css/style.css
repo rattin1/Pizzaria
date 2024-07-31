@@ -142,18 +142,17 @@ header {
   padding: 0 100px;
 }
 
-#TextoBoasVindas{
+#TextoBoasVindas {
   max-width: 600px;
   padding-right: 100px;
 }
-
 
 #TextoBoasVindas h4 {
   text-transform: uppercase;
   font-size: 16px;
   margin: 0;
   padding-top: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #TextoBoasVindas h3 {
@@ -169,23 +168,21 @@ header {
   margin-bottom: 0;
 }
 
-#cardapio{
+#cardapio {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
-#cardapio img{
+#cardapio img {
   padding: 36px 0;
-
 }
 
 #cardapio div img {
   padding: 0;
 }
 
-#cardapio h2{
+#cardapio h2 {
   color: #d03012;
   text-transform: uppercase;
   font-size: 28px;
@@ -212,7 +209,27 @@ header {
   padding-top: 20px;
 }
 
+#Delivery {
+  max-height: 270px;
+  background: #ebe7db;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  text-align: center;
+}
 
+#Delivery h1 {
+  text-transform: uppercase;
+  color: #bf0a26;
+  font-weight: 900;
+}
+
+#Delivery .sec-menu {
+  justify-content: center;
+  padding: 40px;
+}
 
 /* #cardapio div {
   width: 100%;
